@@ -80,6 +80,8 @@ class ModelTrainer:
 
             best_model= model[best_model_name]
 
+            print(f"Best Model Found, Model name is: {best_model_name}, Accuracy_Score is {best_model_score}")
+            print("\n********************************************************************************\n")
             logging.info(f"Best model found, Model name is {best_model_name}, accuracy score: {best_model_score}")
 
             save_object(file_path= self.model_trainer_config.train_model_file_path,
