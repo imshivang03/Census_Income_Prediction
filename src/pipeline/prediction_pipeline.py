@@ -73,7 +73,6 @@ class CustomClass:
                 "capital_loss":[self.capital_loss],
                 "hours_per_week":[self.hours_per_week],
                 "native_country":[self.native_country]
-
             }
 
             data= pd.DataFrame(custom_input)
